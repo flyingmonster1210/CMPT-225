@@ -1,8 +1,0 @@
-part1: part1.o
-	g++ part1.o -o part1
-
-part1.o: part1.cpp
-	g++ -c part1.cpp
-
-clean: 
-	rm part1 part1.o
